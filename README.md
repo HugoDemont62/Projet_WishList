@@ -1,3 +1,8 @@
+## <u>Explications</u>
+Le but du projet et de faire un site tel que vinted par exemple, avec des wishlists, la possibilité de mettre en ligne mais aussi de 
+pouvoir modifier rapidement pour le créateur.
+
+
 ## <u>Roadmap</u>
 
 #### Participant :
