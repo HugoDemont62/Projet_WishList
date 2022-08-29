@@ -81,7 +81,7 @@ Globalement nous devons réussir à faire un vinted clone pour remplir chaque ca
 - [ ] 19 Modifier son compte
     - Un utilisateur authentifié peut modifier son compte
     - Seul le login ne peut pas être modifié
-    - Si il modifie son mot de passe, il doit alors à nouveau s'authentifier
+    - S'il modifie son mot de passe, il doit alors à nouveau s'authentifier
 - [ ] 20 Rendre une liste publique
     - Le créateur d'une liste peut la rendre publique
     - Les listes publiques apparaissent dans la liste publique des listes de souhaits
@@ -100,7 +100,7 @@ Globalement nous devons réussir à faire un vinted clone pour remplir chaque ca
     - Le créateur d'une liste peut ajouter des images par upload.
     - Le fichier de l'image est alors écrit sur le serveur.
     - Une sécurisation empêche d'écraser une image existante et autorise uniquement les fichiers images.
-    - L'upload de fichiers sensibles (PHP ou autres) est rendu impossible
+    - Upload de fichiers sensibles (PHP ou autres) est rendu impossible
 - [ ] 25 Créer un compte participant
     - La création d'un compte peut aussi être utile aux participants afin de consulter les participations qu'ils ont saisies et de ne plus saisir leur  nom lors d'une participation
 - [ ] 26 Afficher la liste des créateurs

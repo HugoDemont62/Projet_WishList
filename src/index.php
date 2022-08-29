@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Hugo Demont</title>
     <link rel="stylesheet" href="css/style.sass">
     <link rel="icon" type="image/x-icon" href="">
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Vinted clone>
+    <meta name="title" content="Vinted clone">
     <meta name="description" content="Vinted clone, make by a student.">
     <meta name="keywords"
           content="Hugo Demont,demont,demon,Hugo,hugo,ugo,62,MMI,mmi,lens,valhuon,Lens,Valhuon,contact,me,portfolio,19ans,english,français,french,Hugo Demont MMI,Hugo Demont Lens,Hugo Demont Itch,Huggu,youtube,twitch,photoshop,html,HTML,sass,SASS,css,CSS,php,PHP,symfony,design,backend,frontend, vinted clone">
