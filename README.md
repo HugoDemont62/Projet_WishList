@@ -111,3 +111,5 @@ Globalement nous devons réussir à faire un vinted clone pour remplir chaque ca
 - [ ] 28 Joindre des listes à son compte
     - Un utilisateur authentifié peut joindre des listes existantes à son compte en fournissant leurs tokens de modification
     - Quand un utilisateur authentifié crée une nouvelle liste, elle est automatiquement jointe à son compte.
+
+Cela reviens comme stipuler au début à faire un clone d'un site de commerce comme Vinted ou autres, personnellement je me suis basé sur ce dernier.
