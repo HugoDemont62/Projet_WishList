@@ -1,5 +1,83 @@
-*
-  color: red
+//Init
+$font: "Maison Neue", "Helvetica Neue", "Helvetica-Neue", "Arial", sans-serif
+$blanc: #FEFEFE
+$noir: #202020
+$bleuVinted: #54ACB4
+$vertVinted: #007782
+$bleuFonceVinted: #0C2C4C
+$belge: #D4BAA6
+$marron: #553929
+$gris: #D6D6D6
 
-body
-  font-family: Arcade, sans-serif
+*, *::before, *::after
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+html
+  font-family: $font
+.container
+  margin: 0 auto
+  max-width: 1200px
+.borderBot
+  border-bottom: 1px $gris solid
+.header
+  height: 60px
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: center
+  &__logo
+    height: 40px
+    width: auto
+  &__cta
+    font-size: 1rem
+    padding: 0.5rem
+    color: $vertVinted
+    background: transparent
+    border: $vertVinted 2px solid
+    border-radius: 5px
+    text-decoration: none
+
+
+
+.search-box
+  position: relative
+  display: flex
+  justify-content: center
+  color: $gris
+  width: 100%
+  font-family: $font
+.search-input
+  height: 45px
+  width: 70%
+  padding: 10px
+  font-size: 20px
+  background: #ededed
+  border-radius: 0 3px 3px 0
+  border: none
+  color: #b3b3b3
+  outline: none
+.search-button
+  text-align: center
+  height: 45px
+  width: 40px
+  outline: none
+  cursor: pointer
+  border: none
+  background: none
+  font-size: 20px
+  background: #ededed
+  i
+    color: #b3b3b3
+.search-defilant
+  color: #818181
+  font-size: 1rem
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 45px
+  border-radius: 3px 0 0 3px
+  border: none
+  border-right: 1px solid $gris
+  background: #ededed
+  outline: none

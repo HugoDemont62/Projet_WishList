@@ -24,30 +24,40 @@
     <!-- meta tags here -->
     <script src="https://kit.fontawesome.com/9225480cef.js" crossorigin="anonymous"></script>
 </head>
-<div class="container">
-    <header class="header">
-        <a href="#" class="header__link">
-            <img src="Vinted-logo.svg.png" alt="Logo de vinted" class="header__logo">
-        </a>
-        <div>
-            <form class="header__form" method="post" action="#">
-                <input type="text" class="header__input" autocomplete="off" placeholder="Rechercher des articles" name="search">
-            </form>
-        </div>
-        <div>
-            <a href="#">
-                S'inscrire | Se connecter
+<header class="borderBot">
+    <div class="container">
+        <section class="header ">
+            <a href="#" class="header__link">
+                <img src="Vinted-logo.svg.png" alt="Logo de vinted" class="header__logo">
             </a>
-            <a href="#">
-                Vends maintenant
-            </a>
-            <a href="#">
-                <i class="fa-regular fa-circle-question"></i>
-            </a>
-        </div>
 
-    </header>
-</div>
+            <form method="post" class="search-box" action="#">
+                <select name="categorie" class="search-defilant">
+                    <option value="articles">Articles</option>
+                    <option value="membres">Membres</option>
+                    <option value="aide">Centre d'aide</option>
+                </select>
+                <button class="search-button" name="search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <input type="text" class="search-input" placeholder="Rechercher des articles">
+            </form>
+            <div>
+                <a href="#" class="header__cta">
+                    S'inscrire | Se connecter
+                </a>
+                <a href="#" class="">
+                    Vends maintenant
+                </a>
+                <a href="#" class="">
+                    <i class="fa-regular fa-circle-question"></i>
+                </a>
+            </div>
+
+        </section>
+    </div>
+</header>
+
 <body>
 
 

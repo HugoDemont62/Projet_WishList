@@ -6,6 +6,17 @@ Globalement nous devons réussir à faire un vinted clone pour remplir chaque ca
 
 ## <u>Roadmap</u>
 
+#### Front :
+- [ ] 1 Afficher un site beau
+  - Like vinted be like
+  - Acc
+  - Aujout
+  - Inscri
+  - COnnec
+  - Aide
+  - Search
+
+
 #### Participant :
 
 - [ ] 1 Afficher une liste de souhait
