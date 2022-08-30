@@ -30,14 +30,34 @@ html
     height: 40px
     width: auto
   &__cta
-    font-size: 1rem
     padding: 0.5rem
     color: $vertVinted
     background: transparent
-    border: $vertVinted 2px solid
+    border: $vertVinted 1px solid
     border-radius: 5px
     text-decoration: none
-
+    font-size: 0.8rem
+    padding-inline: 1rem
+    margin-inline: 1rem
+    &i
+      padding: 0.5rem
+      color: $blanc
+      background: $vertVinted
+      border: $vertVinted 1px solid
+      border-radius: 5px
+      text-decoration: none
+      font-size: 0.8rem
+  &__linkGroup
+    width: 85%
+    display: flex
+    justify-content: center
+    align-items: center
+  &__info
+    text-decoration: none
+    height: 50%
+    margin-inline: 1rem
+    font-size: 1.5rem
+    color: #757575
 
 
 .search-box
@@ -45,21 +65,21 @@ html
   display: flex
   justify-content: center
   color: $gris
-  width: 100%
+  width: 150%
   font-family: $font
 .search-input
-  height: 45px
+  height: 40px
   width: 70%
   padding: 10px
-  font-size: 20px
   background: #ededed
   border-radius: 0 3px 3px 0
   border: none
-  color: #b3b3b3
+  color: $noir
   outline: none
+  font-size: 0.8rem
 .search-button
   text-align: center
-  height: 45px
+  height: 40px
   width: 40px
   outline: none
   cursor: pointer
@@ -68,16 +88,44 @@ html
   font-size: 20px
   background: #ededed
   i
-    color: #b3b3b3
+    color: #757575
+    font-size: 0.8rem
 .search-defilant
-  color: #818181
-  font-size: 1rem
+  color: #757575
+  font-size: 0.8rem
   display: flex
   justify-content: center
   align-items: center
-  height: 45px
+  height: 40px
   border-radius: 3px 0 0 3px
   border: none
   border-right: 1px solid $gris
   background: #ededed
   outline: none
+
+.categories
+  height: 40px
+  display: flex
+  flex-direction: row
+  align-items: center
+  &__link
+    text-decoration: none
+    color: #757575
+    font-size: 0.9rem
+    margin-inline: 0.5rem
+    font-weight: lighter
+
+.hero
+  &__img
+    width: 100%
+    object-fit: contain
+  &__box
+    position: absolute
+  &__cta
+    padding: 1rem
+    color: $blanc
+    background: $vertVinted
+    border: $vertVinted 1px solid
+    border-radius: 5px
+    text-decoration: none
+    font-size: 1.5rem
