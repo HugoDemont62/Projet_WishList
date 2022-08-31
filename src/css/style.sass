@@ -29,6 +29,7 @@ html
   &__logo
     height: 40px
     width: auto
+    margin-inline: 1rem
   &__cta
     padding: 0.5rem
     color: $vertVinted
@@ -65,11 +66,11 @@ html
   display: flex
   justify-content: center
   color: $gris
-  width: 150%
+  width: 120%
   font-family: $font
 .search-input
   height: 40px
-  width: 70%
+  width: 80%
   padding: 10px
   background: #ededed
   border-radius: 0 3px 3px 0
@@ -116,11 +117,18 @@ html
     font-weight: lighter
 
 .hero
+  position: relative
+  font-family: $font
+  font-weight: lighter
   &__img
     width: 100%
     object-fit: contain
   &__box
+    display: flex
+    flex-direction: column
     position: absolute
+    background-color: $blanc
+    font-weight: lighter
   &__cta
     padding: 1rem
     color: $blanc
