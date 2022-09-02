@@ -150,6 +150,7 @@ html
 
 
 .popular
+  margin-block: 1rem
   &__header
     display: flex
     flex-direction: row
@@ -159,13 +160,26 @@ html
   &__a
     color: $vertVinted
     text-decoration: none
-  &__product
+  &__products
     display: flex
     flex-direction: row
+  &__btn
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $vertVinted
+    background: #efefef
+    border: none
+    transition: .1s
+    &:hover
+      background: $gris
+      color: $vertVinted
+
+
 
 .product
   width: 200px
-  margin-inline: 1rem
+  margin-right: 1rem
   &__img
     height: 320px
     width: 200px
