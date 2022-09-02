@@ -120,15 +120,25 @@ html
   position: relative
   font-family: $font
   font-weight: lighter
+  height: 100%
   &__img
     width: 100%
     object-fit: contain
   &__box
     display: flex
-    flex-direction: column
     position: absolute
-    background-color: $blanc
-    font-weight: lighter
+    background: $blanc
+    border-radius: 5px
+    width: 350px
+    margin-top: 10%
+  &__elmts
+    display: flex
+    flex-direction: column
+    margin: 1.5rem
+    &>h2,a
+      margin-block: 0.5rem
+    a:not(.hero__cta)
+      color: $vertVinted
   &__cta
     padding: 1rem
     color: $blanc
@@ -136,4 +146,32 @@ html
     border: $vertVinted 1px solid
     border-radius: 5px
     text-decoration: none
-    font-size: 1.5rem
+    font-size: 16px
+
+
+.popular
+  &__header
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    margin-block: 1rem
+  &__a
+    color: $vertVinted
+    text-decoration: none
+  &__product
+    display: flex
+    flex-direction: row
+
+.product
+  width: 200px
+  margin-inline: 1rem
+  &__img
+    height: 320px
+    width: 200px
+    object-fit: cover
+    background: black
+  &__info
+    display: flex
+    flex-direction: row
+    justify-content: space-between
