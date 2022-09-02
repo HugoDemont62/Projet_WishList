@@ -167,6 +167,9 @@ html {
   font-size: 16px;
 }
 
+.popular {
+  margin-block: 1rem;
+}
 .popular__header {
   display: flex;
   flex-direction: row;
@@ -178,14 +181,27 @@ html {
   color: #007782;
   text-decoration: none;
 }
-.popular__product {
+.popular__products {
   display: flex;
   flex-direction: row;
+}
+.popular__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #007782;
+  background: #efefef;
+  border: none;
+  transition: 0.1s;
+}
+.popular__btn:hover {
+  background: #D6D6D6;
+  color: #007782;
 }
 
 .product {
   width: 200px;
-  margin-inline: 1rem;
+  margin-right: 1rem;
 }
 .product__img {
   height: 320px;
