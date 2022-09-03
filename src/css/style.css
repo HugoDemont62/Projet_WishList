@@ -193,10 +193,16 @@ html {
   background: #efefef;
   border: none;
   transition: 0.1s;
+  border-radius: 5px;
+  text-decoration: none;
 }
 .popular__btn:hover {
   background: #D6D6D6;
   color: #007782;
+}
+.popular__btnp {
+  display: flex;
+  justify-content: center;
 }
 
 .product {
