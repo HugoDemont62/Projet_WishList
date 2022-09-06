@@ -13,23 +13,29 @@ $gris: #D6D6D6
   padding: 0
   margin: 0
   box-sizing: border-box
+
 html
   font-family: $font
+
 .container
   margin: 0 auto
   max-width: 1200px
+
 .borderBot
   border-bottom: 1px $gris solid
+
 .header
   height: 60px
   display: flex
   flex-direction: row
   justify-content: space-around
   align-items: center
+
   &__logo
     height: 40px
     width: auto
     margin-inline: 1rem
+
   &__cta
     padding: 0.5rem
     color: $vertVinted
@@ -40,6 +46,7 @@ html
     font-size: 0.8rem
     padding-inline: 1rem
     margin-inline: 1rem
+
     &i
       padding: 0.5rem
       color: $blanc
@@ -48,11 +55,13 @@ html
       border-radius: 5px
       text-decoration: none
       font-size: 0.8rem
+
   &__linkGroup
     width: 85%
     display: flex
     justify-content: center
     align-items: center
+
   &__info
     text-decoration: none
     height: 50%
@@ -68,6 +77,7 @@ html
   color: $gris
   width: 120%
   font-family: $font
+
 .search-input
   height: 40px
   width: 80%
@@ -78,6 +88,7 @@ html
   color: $noir
   outline: none
   font-size: 0.8rem
+
 .search-button
   text-align: center
   height: 40px
@@ -88,9 +99,11 @@ html
   background: none
   font-size: 20px
   background: #ededed
+
   i
     color: #757575
     font-size: 0.8rem
+
 .search-defilant
   color: #757575
   font-size: 0.8rem
@@ -109,6 +122,7 @@ html
   display: flex
   flex-direction: row
   align-items: center
+
   &__link
     text-decoration: none
     color: #757575
@@ -121,9 +135,11 @@ html
   font-family: $font
   font-weight: lighter
   height: 100%
+
   &__img
     width: 100%
     object-fit: contain
+
   &__box
     display: flex
     position: absolute
@@ -131,14 +147,18 @@ html
     border-radius: 5px
     width: 350px
     margin-top: 10%
+
   &__elmts
     display: flex
     flex-direction: column
     margin: 1.5rem
-    &>h2,a
+
+    & > h2, a
       margin-block: 0.5rem
+
     a:not(.hero__cta)
       color: $vertVinted
+
   &__cta
     padding: 1rem
     color: $blanc
@@ -152,18 +172,25 @@ html
 .popular
   margin-block: 1rem
 
+  &__container
+    margin: 0 auto
+    max-width: 1300px
+
   &__header
     display: flex
     flex-direction: row
     align-items: center
     justify-content: space-between
     margin-block: 1rem
+
   &__a
     color: $vertVinted
     text-decoration: none
+
   &__products
     display: flex
     flex-direction: row
+
   &__btn
     display: flex
     justify-content: center
@@ -174,9 +201,12 @@ html
     transition: .1s
     border-radius: 5px
     text-decoration: none
+    width: 400px
+
     &:hover
       background: $gris
       color: $vertVinted
+
     &p
       display: flex
       justify-content: center
@@ -185,12 +215,34 @@ html
 .product
   width: 200px
   margin-right: 1rem
+
   &__img
     height: 320px
     width: 200px
     object-fit: cover
     background: black
+
   &__info
     display: flex
     flex-direction: row
     justify-content: space-between
+
+.marques
+  display: flex
+  flex-direction: column
+  margin-block: 5rem
+  &__container
+    display: flex
+    margin-block: 2rem
+    a
+      padding: 8px
+      background: $blanc
+      color: $noir
+      border: 1px $gris solid
+      border-radius: 3px
+      margin-right: 1rem
+      text-decoration: none
+
+    a:hover
+      background: #f2f2f2
+

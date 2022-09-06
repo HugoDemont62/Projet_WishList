@@ -170,6 +170,10 @@ html {
 .popular {
   margin-block: 1rem;
 }
+.popular__container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
 .popular__header {
   display: flex;
   flex-direction: row;
@@ -195,6 +199,7 @@ html {
   transition: 0.1s;
   border-radius: 5px;
   text-decoration: none;
+  width: 400px;
 }
 .popular__btn:hover {
   background: #D6D6D6;
@@ -219,6 +224,28 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.marques {
+  display: flex;
+  flex-direction: column;
+  margin-block: 5rem;
+}
+.marques__container {
+  display: flex;
+  margin-block: 2rem;
+}
+.marques__container a {
+  padding: 8px;
+  background: #FEFEFE;
+  color: #202020;
+  border: 1px #D6D6D6 solid;
+  border-radius: 3px;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.marques__container a:hover {
+  background: #f2f2f2;
 }
 
 /*# sourceMappingURL=style.css.map */
